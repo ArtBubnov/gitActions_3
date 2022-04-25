@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      - run: sfdx -v
       - run: npm -v
       - run: node -v
       - run: npm install -g bats
