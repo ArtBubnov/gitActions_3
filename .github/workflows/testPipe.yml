@@ -6,6 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - uses: sfdx-actions/setup-sfdx@v1
         with:
           node-version: '14'
       - run: sfdx -v
