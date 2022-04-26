@@ -15,9 +15,9 @@ jobs:
    - name: node version check
      run: node -v
 #	    
-   - name: Create a file to store access key
-     run: touch access_build.key
-     shell: bash 
+#   - name: Create a file to store access key
+#     run: touch access_build.key
+#     shell: bash 
 #	 
 #   - name: add salesforce key to the file
 #     run: echo 'force://PlatformCLI::5Aep861g78ZB7.52BdYasUbDan_s7oBOvrelOrTzqjp2_k_mugQa9oKEAZbMBXEHAjY.Szu1jM_2R.lGTV08.KQ@vrp280-dev-ed.my.salesforce.com' > access_build.key 
