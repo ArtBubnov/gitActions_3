@@ -30,13 +30,13 @@ jobs:
 #	 
 #	 
 #	 
-   #- name: Authorization on Salesforce Build org
-    # run: sfdx force:auth:sfdxurl:store -f 'access_build.key' -a org.build
-	# shell: bash 
+#   #- name: Authorization on Salesforce Build org
+#    # run: sfdx force:auth:sfdxurl:store -f 'access_build.key' -a org.build
+#	# shell: bash 
 #	 
 #	 
 #
 #	 
 #- bash:    
- #             echo $SF_URL_build > access_build.key   
+# #             echo $SF_URL_build > access_build.key   
 #   - run: npm install -g bats
