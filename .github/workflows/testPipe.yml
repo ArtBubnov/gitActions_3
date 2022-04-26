@@ -19,24 +19,8 @@ jobs:
      run: touch access_build.key
      shell: bash 
 #	 
-   - name: add salesforce key to the file
-     run: echo 'force://PlatformCLI::5Aep861g78ZB7.52BdYasUbDan_s7oBOvrelOrTzqjp2_k_mugQa9oKEAZbMBXEHAjY.Szu1jM_2R.lGTV08.KQ@vrp280-dev-ed.my.salesforce.com' > access_build.key 
-     shell: bash 
-   - name: Authorization on Salesforce Build org
-     run: node_modules/sfdx-cli/bin/run force:auth:sfdxurl:store -f 'access_build.key' -a org.build	 
-#	 
-#	 
-#	 
-#	 
-#	 
-#	 
-#   #- name: Authorization on Salesforce Build org
-#    # run: sfdx force:auth:sfdxurl:store -f 'access_build.key' -a org.build
-#	# shell: bash 
-#	 
-#	 
-#
-#	 
-#- bash:    
-# #             echo $SF_URL_build > access_build.key   
-#   - run: npm install -g bats
+#   - name: add salesforce key to the file
+#     run: echo 'force://PlatformCLI::5Aep861g78ZB7.52BdYasUbDan_s7oBOvrelOrTzqjp2_k_mugQa9oKEAZbMBXEHAjY.Szu1jM_2R.lGTV08.KQ@vrp280-dev-ed.my.salesforce.com' > access_build.key 
+#     shell: bash 
+#   - name: Authorization on Salesforce Build org
+#     run: node_modules/sfdx-cli/bin/run force:auth:sfdxurl:store -f 'access_build.key' -a org.build
